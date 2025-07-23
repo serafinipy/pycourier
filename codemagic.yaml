@@ -1,7 +1,7 @@
 workflows:
   build_ios:
     name: Build iOS App
-    instance_type: mac_mini
+    instance_type: mac_m1
     environment:
       vars:
         APP_ID: "com.mdellosa.pcourier"
