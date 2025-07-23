@@ -4,9 +4,8 @@ workflows:
     instance_type: mac_mini
     environment:
       vars:
-        APP_ID: "com.paraguaycourier.app"
+        APP_ID: "com.mdellosa.pcourier"
         BUNDLE_NAME: "Paraguay Courier"
-      flutter: false
       xcode: latest
       node: 18
     scripts:
